@@ -1,5 +1,7 @@
 import { Button } from '../components/Button';
 
+import '../styles/sidebar.scss';
+
 interface Genre {
   id: number;
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
