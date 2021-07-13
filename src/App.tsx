@@ -25,9 +25,9 @@ interface MovieProps {
 }
 
 export function App() {
-  const [selectedGenreId, setSelectedGenreId] = useState(1);
-
+  
   const [genres, setGenres] = useState<GenreResponseProps[]>([]);
+  const [selectedGenreId, setSelectedGenreId] = useState(1);
 
   const [movies, setMovies] = useState<MovieProps[]>([]);
   const [selectedGenre, setSelectedGenre] = useState<GenreResponseProps>({} as GenreResponseProps);
